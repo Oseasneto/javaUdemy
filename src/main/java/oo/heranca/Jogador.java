@@ -6,6 +6,12 @@ public class Jogador {
     int x;
     int y;
 
+    //criando um construtor para a classe que recebe parâmetros
+    Jogador(int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+
     boolean atacar(Jogador oponente){
         //Math.abs (só interessa valores positivos)
         int deltaX = Math.abs(x - oponente.x);

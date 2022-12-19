@@ -2,6 +2,11 @@ package oo.heranca;
 
 public class Heroi extends Jogador{
 
+    // o heroi agora precisa de parâmetros para ser criado
+    Heroi(int x, int y){
+        super(x, y);
+    }
+
     //aqui a gente reutiliza o método definido em jogador
     boolean atacar(Jogador oponente){
         boolean ataque1 = super.atacar(oponente);
