@@ -1,0 +1,6 @@
+package oo.abstrato;
+
+public abstract class Animal {
+
+    public abstract String mover();
+}
